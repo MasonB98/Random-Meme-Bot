@@ -5,8 +5,6 @@ import tweepy
 import time
 from datetime import datetime
 
-#print(glob.glob("/Users/masonbenge/Desktop/tweepy/pics/*"))
-
 CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
 ACCESS_KEY = ''
