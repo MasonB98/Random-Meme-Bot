@@ -14,10 +14,7 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-global blacklist
 global number
-
-blacklist = set()
 
 def meme():
     
